@@ -16,3 +16,8 @@ Apply the structure from article -> [Best practices for Express app structure](h
 ## For every project don't forget:
 - [x] Edit the '.gitignore' file to allow git ignores the node_modules/ directory.
 - [x] When edit/refactor source-code please create the git branch before starting.
+
+## Useful web-site resources
+- [Checking the compatability of JS function](https://caniuse.com/)
+- [Create the 3D infrastructure diagram](https://cloudcraft.co/)
+- [The Ultimate Web Code Generator](https://webcode.tools/)
