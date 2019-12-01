@@ -14,5 +14,5 @@ Apply the structure from article -> [Best practices for Express app structure](h
 10. **yarn.lock** (This is my mistake, if you use NPM as package manager, please remove this file)
 
 ## For every project don't forget:
-### - [x] Edit the '.gitignore' file to allow git ignores the node_modules/ directory.
-### - [x] When edit/refactor source-code please create the git branch before starting.
+- [x] Edit the '.gitignore' file to allow git ignores the node_modules/ directory.
+- [x] When edit/refactor source-code please create the git branch before starting.
