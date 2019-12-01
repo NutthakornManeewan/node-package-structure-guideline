@@ -6,12 +6,14 @@ Apply the structure from article -> [Best practices for Express app structure](h
 2. **libs**: Contain all library wrapper files.
 3. **middlewares**: Contain all data-adapter/middleware lib files.
 4. **models**: Contain all database-related files
-5. **tests**: Contain all test files
-6. **.gitignore**
-7. **.prettierrc**: For format the source-code style.
-8. **app.js** (Or index.js that up to negotiation)
-9. **package.json**
-10. **yarn.lock** (This is my mistake, if you use NPM as package manager, please remove this file)
+5. **configs**: Contain all environment config files (This should be ignored by .gitignore file)
+6. **public**: Contain all public files that can show to the public (image, text file, etc.)
+7. **tests**: Contain all test files
+8. **.gitignore**
+9. **.prettierrc**: For format the source-code style.
+10. **app.js** (Or index.js that up to negotiation)
+11. **package.json**
+12. **yarn.lock** (This is my mistake, if you use NPM as package manager, please remove this file)
 
 ## For every project don't forget:
 - [x] Edit the '.gitignore' file to allow git ignores the node_modules/ directory.
@@ -21,3 +23,4 @@ Apply the structure from article -> [Best practices for Express app structure](h
 - [Checking the compatability of JS function](https://caniuse.com/)
 - [Create the 3D infrastructure diagram](https://cloudcraft.co/)
 - [The Ultimate Web Code Generator](https://webcode.tools/)
+- [Git flow utility](https://danielkummer.github.io/git-flow-cheatsheet/)
