@@ -1,7 +1,10 @@
 # NodeJS (backend) Structure guideline
+
 Apply the structure from article -> [Best practices for Express app structure](https://www.terlici.com/2014/08/25/best-practices-express-structure.html)
+And this -> [NodeJS Bestpractices](https://github.com/goldbergyoni/nodebestpractices)
 
 ## In this repos the file consisted with:
+
 1. **controllers**: Contains all logic files.
 2. **libs**: Contain all library wrapper files.
 3. **middlewares**: Contain all data-adapter/middleware lib files.
@@ -16,11 +19,13 @@ Apply the structure from article -> [Best practices for Express app structure](h
 12. **yarn.lock** (This is my mistake, if you use NPM as package manager, please remove this file)
 
 ## For every project don't forget:
-- [x] Edit the '.gitignore' file to allow git ignores the node_modules/ directory.
-- [x] When edit/refactor source-code please create the git branch before starting.
+
+-   [x] Edit the '.gitignore' file to allow git ignores the node_modules/ directory.
+-   [x] When edit/refactor source-code please create the git branch before starting.
 
 ## Useful web-site resources
-- [Checking the compatability of JS function](https://caniuse.com/)
-- [Create the 3D infrastructure diagram](https://cloudcraft.co/)
-- [The Ultimate Web Code Generator](https://webcode.tools/)
-- [Git flow utility](https://danielkummer.github.io/git-flow-cheatsheet/)
+
+-   [Checking the compatability of JS function](https://caniuse.com/)
+-   [Create the 3D infrastructure diagram](https://cloudcraft.co/)
+-   [The Ultimate Web Code Generator](https://webcode.tools/)
+-   [Git flow utility](https://danielkummer.github.io/git-flow-cheatsheet/)
